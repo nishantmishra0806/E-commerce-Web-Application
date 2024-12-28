@@ -1,0 +1,121 @@
+.loginsignup{
+    width: 100%;
+    height: 80vh;
+    background: rgb(120, 150, 209);
+    padding-top: 100px;
+    
+
+}
+.loginsignup-container{
+    width: 580px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+    border: 2px solid blue;
+
+}
+.loginsignup-container h1{
+    margin: 20px 0px;
+}
+.loginsignup-feilds{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.loginsignup-feilds input{
+    height: 72px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid rgb(111, 109, 109);
+    outline: none;
+    color: rgb(50, 46, 46);
+    font-size: 18px;
+}
+.loginsignup-container button{
+    width: 580px;
+    height: 72px;
+    color: white;
+    background: rgb(11, 89, 161);
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.loginsignup-login{
+    margin-top: 20px;
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.loginsignup-login span{
+    color: rgb(58, 9, 236);
+    font-weight: 600;
+    cursor: pointer;
+}
+.loginsignup-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: rgb(88, 88, 88);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+@media only screen and (max-width: 1280px) {
+    .loginsignup-container {
+        width: 90%; 
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .loginsignup-feilds input {
+        font-size: 0.9rem; 
+    }
+
+    .loginsignup-container button {
+        font-size: 1.2rem; 
+    }
+
+    .loginsignup-login,
+    .loginsignup-agree {
+        font-size: 0.9rem; 
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .loginsignup-feilds input {
+        font-size: 0.8rem; 
+    }
+
+    .loginsignup-container button {
+        font-size: 1rem; 
+    }
+
+    .loginsignup-login,
+    .loginsignup-agree {
+        font-size: 0.8rem; 
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .loginsignup-feilds input {
+        font-size: 0.7rem; 
+    }
+
+    .loginsignup-container button {
+        font-size: 0.9rem;
+    }
+
+    .loginsignup-login,
+    .loginsignup-agree {
+        font-size: 0.7rem; 
+    }
+}
